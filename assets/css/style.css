@@ -89,6 +89,12 @@ h5 {
 
 h6 {
   font-size: 16px; }
+h7 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #ff8800;
+    margin: 0px; 
+  font-size: 22;}  
 
 ul, ol {
   margin: 0px;
@@ -101,15 +107,22 @@ li {
 p {
   font-size: 20px;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 30px;
   color: #747E88;
   margin: 0px; }
 p1 {
     font-size: 16px;
     font-weight: 600;
-    line-height: 24px;
+    line-height: 30px;
     color: #000000;
     margin: 0px; }
+p2 {
+    font-size: 13px;
+    font-weight: 500;
+      line-height: 30px;
+      color: #000000;
+      margin: 0px;}    
+    
 .bg_cover {
   background-position: center center;
   background-size: cover;
@@ -1148,7 +1161,7 @@ p1 {
       03.SERVICES css 
 ===========================*/
 .single-services {
-  -webkit-box-shadow: 0px 0px 10px 0px rgba(154, 154, 154, 0.16);
+  -webkit-box-shadow: 0px 0px 16px 0px rgba(154, 154, 154, 0.16);
   -moz-box-shadow: 0px 0px 10px 0px rgba(154, 154, 154, 0.16);
   box-shadow: 0px 0px 10px 0px rgba(154, 154, 154, 0.16);
   -webkit-transition: all 0.3s ease-out 0s;
@@ -1188,8 +1201,8 @@ p1 {
   .single-services .services-content {
     margin-top: 35px; }
     .single-services .services-content .services-title a {
-      font-size: 25px;
-      font-weight: 500;
+      font-size: 24px;
+      font-weight: 700;
       color: #222;
       -webkit-transition: all 0.3s ease-out 0s;
       -moz-transition: all 0.3s ease-out 0s;
@@ -1199,8 +1212,9 @@ p1 {
       @media (max-width: 767px) {
         .single-services .services-content .services-title a {
           font-size: 20px; } }
-    .single-services .services-content .text {
-      margin-top: 30px; }
+    .single-services .services-content .text p2 {
+      margin-top: 30px;
+     }
   .single-services.services-color-1 .services-icon {
     background-color: #ff8800; }
     .single-services.services-color-1 .services-icon::before {
@@ -1348,7 +1362,7 @@ p1 {
         padding-top: 0; } }
     .single-features .features-content .features-title {
       font-size: 25px;
-      font-weight: 500; }
+      font-weight: 700; }
       @media (max-width: 767px) {
         .single-features .features-content .features-title {
           font-size: 20px; } }
