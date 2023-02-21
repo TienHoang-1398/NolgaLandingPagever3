@@ -112,7 +112,7 @@ p {
   margin: 0px; }
 p1 {
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 700;
     line-height: 30px;
     color: #000000;
     margin: 0px; }
@@ -1559,50 +1559,6 @@ p2 {
     box-shadow: 0px 3px 11px 0px rgba(196, 15, 124, 0.16); }
 
 /*===========================
-       09.PEICING css 
-===========================*/
-.single-pricing {
-  -webkit-box-shadow: 0px 0px 11px 0px rgba(154, 154, 154, 0.16);
-  -moz-box-shadow: 0px 0px 11px 0px rgba(154, 154, 154, 0.16);
-  box-shadow: 0px 0px 11px 0px rgba(154, 154, 154, 0.16);
-  padding: 25px 30px 30px; }
-  .single-pricing .pricing-title .title {
-    font-size: 25px;
-    font-weight: 500; }
-  .single-pricing .pricing-price {
-    margin-top: 30px; }
-    .single-pricing .pricing-price .price {
-      font-size: 35px;
-      font-weight: 600;
-      color: #38424D;
-      line-height: 35px; }
-    .single-pricing .pricing-price .text {
-      font-size: 18px;
-      margin-top: 18px; }
-  .single-pricing .pricing-list {
-    margin-top: 30px; }
-    .single-pricing .pricing-list .list li {
-      line-height: 39px; }
-  .single-pricing .pricing-btn {
-    margin-top: 28px; }
-  .single-pricing.pricing-active {
-    position: relative; }
-    .single-pricing.pricing-active .pricing-price .price {
-      color: #ff8800; }
-  .single-pricing.pricing-active {
-    position: relative;
-    z-index: 5; }
-    .single-pricing.pricing-active .pricing-shape {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      z-index: -1; }
-      .single-pricing.pricing-active .pricing-shape img {
-        width: 100%; }
-
-/*===========================
      10.DOWNLOAD css 
 ===========================*/
 .download-area {
@@ -1831,7 +1787,7 @@ p2 {
     max-width: 200px; }
 
 .footer-about {
-  max-width: 320px; }
+  max-width: 400px; }
   .footer-about .text {
     margin-top: 30px; }
   .footer-about .social {
@@ -1839,16 +1795,6 @@ p2 {
     .footer-about .social li {
       display: inline-block;
       margin-right: 25px; }
-      .footer-about .social li a {
-        font-size: 20px;
-        color: #747E88;
-        -webkit-transition: all 0.3s ease-out 0s;
-        -moz-transition: all 0.3s ease-out 0s;
-        -ms-transition: all 0.3s ease-out 0s;
-        -o-transition: all 0.3s ease-out 0s;
-        transition: all 0.3s ease-out 0s; }
-        .footer-about .social li a:hover {
-          color: #ff8800; }
 
 .footer-title .title {
   font-size: 20px;
@@ -1875,7 +1821,7 @@ p2 {
 .footer-contact .contact-list li {
   margin-top: 20px; }
   .footer-contact .contact-list li .contact-info .info-info {
-    width: 30px; }
+    width: 40px; }
   .footer-contact .contact-list li .contact-info .info-content .text {
     color: #747E88;
     font-size: 16px; }
