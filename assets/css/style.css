@@ -1069,6 +1069,9 @@ p2 {
       display: contents;
       color: #ff8800;
     font-size: 60px; }
+    @media only screen and (min-width: 400px) and (max-width: 767px) {
+      .header-hero-content .header-title span {
+        font-size: 40px; } }
       
   .header-hero-content .text {
     margin-top: 30px; }
@@ -1164,18 +1167,18 @@ p2 {
       03.SERVICES css 
 ===========================*/
 .single-services {
-  -webkit-box-shadow: 0px 0px 16px 0px rgba(154, 154, 154, 0.16);
-  -moz-box-shadow: 0px 0px 10px 0px rgba(154, 154, 154, 0.16);
-  box-shadow: 0px 0px 10px 0px rgba(154, 154, 154, 0.16);
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(233, 174, 10, 0.16);
+  -moz-box-shadow: 0px 0px 50px 0px rgba(154, 154, 154, 0.16);
+  box-shadow: 0px 0px 50px 0px rgba(154, 154, 154, 0.16);
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
   -o-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
-  padding: 45px 25px 35px; }
+  padding: 60px 0px 45px; }
   @media (max-width: 767px) {
     .single-services {
-      padding: 40px 20px 30px; } }
+      padding: 45px 0x 30px; } }
   .single-services .services-icon {
     width: 79px;
     height: 79px;
@@ -1214,7 +1217,7 @@ p2 {
       transition: all 0.3s ease-out 0s; }
       @media (max-width: 767px) {
         .single-services .services-content .services-title a {
-          font-size: 20px; } }
+          font-size: 25px; } }
     .single-services .services-content .text p2 {
       margin-top: 30px;
      }
@@ -1331,7 +1334,7 @@ p2 {
   -webkit-box-shadow: 0px 0px 10px 0px rgba(154, 154, 154, 0.16);
   -moz-box-shadow: 0px 0px 10px 0px rgba(154, 154, 154, 0.16);
   box-shadow: 0px 0px 10px 0px rgba(154, 154, 154, 0.16);
-  padding: 35px;
+  padding: 35px 0px 35px 10px  ;
   -webkit-transition: all 0.3s ease-out 0s;
   -moz-transition: all 0.3s ease-out 0s;
   -ms-transition: all 0.3s ease-out 0s;
@@ -1339,10 +1342,10 @@ p2 {
   transition: all 0.3s ease-out 0s; }
   @media (max-width: 767px) {
     .single-features {
-      padding: 25px; } }
+      padding: 25px 0px 25px 0px; } }
   @media only screen and (min-width: 576px) and (max-width: 767px) {
     .single-features {
-      padding: 35px; } }
+      padding: 35px 0px 35px 10px; } }
   .single-features .features-icon {
     width: 76px;
     height: 76px;
