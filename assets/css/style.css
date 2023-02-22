@@ -1372,10 +1372,16 @@ p2 {
       @media (max-width: 767px) {
         .single-features .features-content .features-title {
           font-size: 20px; } }
+          .single-features .features-content .features-text {
+            font-size: 16px;
+            }
+            @media (max-width: 767px) {
+              .single-features .features-content .features-text {
+                font-size: 15px; } }      
   .single-features.features-color-1 .features-icon {
     background-color: #ff8800; }
   .single-features.features-color-2 .features-icon {
-    background-color: #d81d1d; }
+    background-color: #d65353; }
   .single-features.features-color-3 .features-icon {
     background-color: #0148e1; }
   .single-features:hover {
@@ -1467,7 +1473,7 @@ p2 {
   .swiper-pagination .swiper-pagination-bullet {
     width: 16px;
     height: 16px;
-    border: 2px solid #e7ac08;
+    border: 2px solid #e77f08;
     background: none;
     opacity: 1; }
     .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
